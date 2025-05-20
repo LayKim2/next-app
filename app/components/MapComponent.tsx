@@ -25,11 +25,11 @@ export interface Restaurant {
 }
 
 const restaurants: Restaurant[] = [
-  { id: 1, name: 'Liveliku', position: { lat: 59.436, lng: 24.728 }, type: 'restaurant', color: 'green' },
-  { id: 2, name: 'Valhalla', position: { lat: 59.437, lng: 24.743 }, type: 'cafe', color: 'orange' },
-  { id: 3, name: 'Nomad', position: { lat: 59.438, lng: 24.750 }, type: 'restaurant', color: 'red' },
-  { id: 4, name: 'Kästik', position: { lat: 59.442, lng: 24.762 }, type: 'bistro', color: 'green' },
-  { id: 5, name: 'Oriental', position: { lat: 59.429, lng: 24.735 }, type: 'restaurant', color: 'red' }
+  { id: 1, name: 'Liveliku2', position: { lat: 59.436, lng: 24.728 }, type: 'restaurant', color: 'green' },
+  { id: 2, name: 'Valhalla2', position: { lat: 59.437, lng: 24.743 }, type: 'cafe', color: 'orange' },
+  { id: 3, name: 'Nomad2', position: { lat: 59.438, lng: 24.750 }, type: 'restaurant', color: 'red' },
+  { id: 4, name: 'Kästik2', position: { lat: 59.442, lng: 24.762 }, type: 'bistro', color: 'green' },
+  { id: 5, name: 'Oriental2', position: { lat: 59.429, lng: 24.735 }, type: 'restaurant', color: 'red' }
 ];
 
 interface MapComponentProps {
